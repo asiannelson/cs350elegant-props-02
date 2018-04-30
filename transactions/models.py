@@ -12,3 +12,4 @@ class Transaction(models.Model):
     trans_date = models.DateTimeField(auto_now=True)
     trans_type = models.CharField(max_length=64, choices=TRANS_TYPES)
 
+ 
