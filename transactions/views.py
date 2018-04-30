@@ -39,3 +39,4 @@ class PropertyUpdateTransaction(generic.UpdateView):
 	model = Transaction
 	template_name = "transactions/edit.html"
 	fields = ['prop','trans_type']
+	
